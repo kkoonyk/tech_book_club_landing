@@ -1,0 +1,38 @@
+.martian-mono-regular {
+    font-family: "Martian Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .martian-mono-semibold {
+    font-family: "Martian Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .martian-mono-bold {
+    font-family: "Martian Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  :root {
+    --font-martian-mono-regular: "Martian Mono", monospace;
+    --font-martian-mono-semibold: "Martian Mono", monospace;
+    --font-martian-mono-bold: "Martian Mono", monospace;
+    
+    --font-inter-regular: "Inter", sans-serif;
+    --font-inter-semibold: "Inter", sans-serif;
+  }

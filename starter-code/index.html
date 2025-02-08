@@ -3,100 +3,177 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Martian+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Tech book club</title>
 </head>
 <body>
 
-<h1>  Join the ultimate tech book club</h1>
-<p>
+<main>
+
+  <div class="main_container">
+    <section class="flx">
+      <div class="logo"> <img src="./assets/images/logo.svg" alt=""> </div>
+        <div class="flx_row">
+       <div class="content">
+          <h1>  Join the ultimate tech book club</h1>
+          <p>
+            
+              Turn your reading time into learning time with fellow tech enthusiasts. 
+              Get curated recommendations, join vibrant discussions, and level up your 
+              skills one chapter at a time.
+          </p>
+          
+          <div class="review_btn">
+            <a href="">Review membership options</a>
+            <img src="./assets/images/image-avatars.webp" alt="">
+            <span>  200+ developers joined already</span>
+          </div>
+   
+       </div>
   
-    Turn your reading time into learning time with fellow tech enthusiasts. 
-    Get curated recommendations, join vibrant discussions, and level up your 
-    skills one chapter at a time.
-</p>
+      <div class="add"><img src="./assets/images/image-hero-desktop.webp" alt=""></div> </div>
+    </section>
+   
+  </div>
 
-  <a href="">Review membership options</a>
-  <img src="./assets/images/image-avatars.webp" alt="">
-  <span>  200+ developers joined already</span>
-
-<h2>  Read together, grow together</h2>
-<ul>
-  <li>Monthly curated tech reads selected by industry experts</li>
-  <li>Virtual and in-person meetups for deep-dive discussions</li>
-  <li>Early access to new tech book releases</li>
-  <li>Author Q&A sessions with tech thought leaders</li>
-</ul>
- 
-
-<h2>  Not your average book club</h2>
-
-<p>
-    Connect with a community that speaks your language - from Python to TypeScript and 
-    everything in between. Our discussions blend technical depth with practical applications.
-</p>
-
-<h2>
-    Your tech reading journey
+<section class="container">
+    <div class="flx">
+      <img src="./assets/images/image-read-together-desktop.webp" alt="">
+    </div>
+  <div class="flx container">
+      <h2>  Read together, grow together</h2>
+      <ul>
+        <li>Monthly curated tech reads selected by industry experts</li>
+        <li>Virtual and in-person meetups for deep-dive discussions</li>
+        <li>Early access to new tech book releases</li>
+        <li>Author Q&A sessions with tech thought leaders</li>
+      </ul>
+  </div>
+</section>
   
-</h2>
-  <container>
-    <img src="./assets/images/1.png" alt="">
-   <p> Choose your membership tier</p>
+<section class="container">
+  <div class="flx">
+      <h2>  Not your average book club</h2>
+      
+      <p>
+          Connect with a community that speaks your language - from Python to TypeScript and 
+          everything in between. Our discussions blend technical depth with practical applications.
+      </p>
+  </div>
+     <div class="flx">
+      <img src="./assets/images/image-not-average-desktop.webp" alt="">
+    </div>
+</section>
+
+
+<section class="container">
+  <div class="flx">
+      <h2>
+          Your tech reading journey
+        
+      </h2>
+        <container>
+          <img src="./assets/images/1.png" alt="">
+         <p> Choose your membership tier</p>
+        
+          <img src="./assets/images/2.png" alt="">
+          <p>Get your monthly book selection</p>
+        
+          <img src="./assets/images/3.png" alt="">
+         <p> Join our discussion forums</p>
+        
+          <img src="./assets/images/4.png" alt="">
+         <p> Attend exclusive meetups</p>
+        </container>
+  </div>
+</section>
+
+
+  <section>
+     <div class="flx">
+       <h2> Membership options</h2>
+      
+       <div class="card">
+         <h4> Starter</h4>
+          $19/month
+        
+          1 book/month
+          Online forums
+        
+         <a href=""> Subscribe now</a>
+       </div>
+        
+       <div class="card">
+        
+          Pro
+          $29/month
+        
+          2 books/month
+          Virtual meetups
+        
+          <a href=""> Subscribe now</a>
+      </div>
+      
+      
+       <div class="card">
+          Enterprise
+          Custom
+        
+          Team access
+          Private sessions
+          <a href="">  Talk to us</a>
+       </div>
+      
   
-    <img src="./assets/images/2.png" alt="">
-    <p>Get your monthly book selection</p>
+     </div>
   
-    <img src="./assets/images/3.png" alt="">
-   <p> Join our discussion forums</p>
+  </section>
+
+  <section class="flx">
+   <div class="rate_wrap">
+      <img src="./assets/images/icon-star.svg" alt="">
+      <img src="./assets/images/icon-star.svg" alt="">
+      <img src="./assets/images/icon-star.svg" alt="">
+      <img src="./assets/images/icon-star.svg" alt="">
+      <img src="./assets/images/icon-star.svg" alt="">
+   </div>
+
+    <blockquote>
+      "This book club transformed my technical reading from a solitary 
+      activity into an enriching community experience. The discussions 
+      are gold!"
+    </blockquote>
   
-    <img src="./assets/images/4.png" alt="">
-   <p> Attend exclusive meetups</p>
-  </container>>
+    <p> Sarah Chen, Software Architect </p>
+  </div>
+  
+</main>
 
- <h2> Membership options</h2>
-
- <h4> Starter</h4>
-  $19/month
-
-  1 book/month
-  Online forums
-
- <a href=""> Subscribe now</a>
-
-  Pro
-  $29/month
-
-  2 books/month
-  Virtual meetups
-
-  <a href=""> Subscribe now</a>
-
-
-  Enterprise
-  Custom
-
-  Team access
-  Private sessions
-
-<a href="">  Talk to us</a>
-
-  "This book club transformed my technical reading from a solitary 
-  activity into an enriching community experience. The discussions 
-  are gold!"
-
-  Sarah Chen, Software Architect
-
-<h2>  Ready to debug your reading list?</h2>
-
-<a>  Review membership options</a>
-  <img src="./assets/images/image-avatars.webp" alt="">
-  <span>  200+ developers joined already</span>
-
-  <small>© 2024 - Tech Book Club</small>
+<footer>
+  <section>
+    <h2>  Ready to debug your reading list?</h2>
+    
+    <a>  Review membership options</a>
+      <img src="./assets/images/image-avatars.webp" alt="">
+      <span>  200+ developers joined already</span>
+    
+     <div>
+        <small>© 2024 - Tech Book Club</small>
+        <div>
+          <img src="./assets/images/logo-bluesky.svg" alt="">
+          <img src="./assets/images/logo-linkedin.svg" alt="">
+        </div>
+     </div>
+  </section>
+</footer>
 
 </body>
 </html>
