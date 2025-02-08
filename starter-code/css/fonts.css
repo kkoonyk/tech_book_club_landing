@@ -35,4 +35,41 @@
     
     --font-inter-regular: "Inter", sans-serif;
     --font-inter-semibold: "Inter", sans-serif;
-  }
+ 
+   
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-50: #FAF5F3;
+    --color-neutral-200: #E6E1DF;
+    --color-neutral-700: #385159;
+    --color-neutral-900: #062630;
+  
+    --color-light-salmon-50: #FFF5EF;
+    --color-light-salmon-100: #FFE2D1;
+    --color-light-salmon-500: #FEA36F;
+  
+    --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+
+  --border-radius-0: 0px;
+  --border-radius-4: 4px;
+  --border-radius-6: 6px;
+  --border-radius-8: 8px;
+  --border-radius-10: 10px;
+  --border-radius-12: 12px;
+  --border-radius-16: 16px;
+  --border-radius-20: 20px;
+  --border-radius-24: 24px;
+  --border-radius-full: 999px;
+  } 
