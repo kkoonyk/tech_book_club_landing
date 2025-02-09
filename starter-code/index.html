@@ -19,7 +19,7 @@
 <main>
 
   <div class="main_container">
-    <section class="flx primary_page">
+      <section class="flx primary_page">
       <div class="logo"> <img src="./assets/images/logo.svg" alt="Tech Book Club Logo"> </div>
         <div class="join_club">
        <div class="content">
@@ -64,7 +64,7 @@
        <div class="wrapper_img flx"> <img src="./assets/images/image-read-together-desktop.webp" alt="" ></div>
     <div class="content">
         <h2>  Read together, grow together</h2>
-        <ul>
+        <ul class="flx list">
           <li>Monthly curated tech reads selected by industry experts</li>
           <li>Virtual and in-person meetups for deep-dive discussions</li>
           <li>Early access to new tech book releases</li>
@@ -80,7 +80,7 @@
         <h2>  Not your average book club</h2>
         
         <p>
-            Connect with a community that speaks your language - from Python to TypeScript and 
+            Connect with a community that speaks your language - from&nbsp<b>Python </b>to <b>TypeScript</b> and 
             everything in between. Our discussions blend technical depth with practical applications.
         </p>
     </div>
@@ -125,41 +125,58 @@
 
 
   <section class="membership">
-    
       <div>
          <h2 class="tittle"> Membership options</h2>
         
       </div>
-       <div>
-         <div class="card">
-           <h4> Starter</h4>
-            $19/month
-          
-            1 book/month
-            Online forums
+       <div class="flx memeber_cards">
+         <div class="card starter">
+          <div class="member_content">
+             <h3> Starter</h3>
+             <div class="flx price"><h4> $19</h4><p>/month</p></div>
+             <hr>
+             <ui>
+              <li>1 book/month</li>
+              <li>Online forums</li>
+            </ui>
+          </div>
           
            <a href=""> Subscribe now</a>
          </div>
           
-         <div class="card">
+         <div class="card pro">
           
-            Pro
-            $29/month
+          <div class="member_content">
+            <h3>  Pro</h3>
+             <div class="flx price"> <h4>$29</h4><p>/month</p></div>
+             <hr>
+  
+            <ui>
+              <li>2 books/month</li>
+              <li>  Virtual meetups</li>
+            </ui>
+          </div>
+            
           
-            2 books/month
-            Virtual meetups
           
             <a href=""> Subscribe now</a>
         </div>
         
         
-         <div class="card">
-            Enterprise
-            Custom
-          
-            Team access
-            Private sessions
-            <a href="">  Talk to us</a>
+         <div class="card enterprise">
+         <div class="member_content">
+           <h3>   Enterprise</h3>
+              <h4>Custom</h4>
+             <hr>
+  
+              <ui>
+                <li> Team access</li>
+                <li> Private sessions</li>
+              </ui>
+         </div>
+           
+           
+            <a href="">Talk to us</a>
          </div>
         
        </div>
