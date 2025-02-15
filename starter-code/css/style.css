@@ -268,9 +268,35 @@
     }
 
     .not_your h2 {
-        margin-block-end: 24px
+        margin-block-end: 24px;
+        position: relative;
     }
+    .not_your h2::before {
+        content: '';
+        position: absolute;
+        background-image: url(../assets/images/pattern-circle.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 24%;
+        transform: translate(50%, 50%);
+        
 
+    }
+    .not_your p{
+        color: var(--colors-neutral-700, #385159);
+
+/* Text Preset 5 */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+letter-spacing: -0.5px;
+height: 112px;
+width: 530px;
+    }
     .wrapper_img {
         position: relative;
     }
@@ -497,8 +523,7 @@
         font-weight: 600;
         width: 685px;
     }
-
-    footer span {}
+ 
 
     small {
         color: var(--colors-neutral-0, #FFF);
@@ -532,4 +557,15 @@
         background-color: var(--color-neutral-900);
         border: 2px solid var(--colors-neutral-0, #FFF);
     }
+    footer .part span{
+        color: #FAF5F3;
+    text-align: center;
+    font-family: "Martian Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: -1px;
+    }
+
     
