@@ -545,6 +545,9 @@ width: 530px;
         display: flex;
         column-gap: 24px;
     }
+    .footer_media a{
+        padding: 0;
+    }
     .footer_content{
         flex-direction: column;
         row-gap: var(--spacing-500);
